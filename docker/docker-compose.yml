@@ -9,3 +9,17 @@ services:
       - 'MYSQL_USER=myuser'
     ports:
       - '3308:3306'
+
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  api:
+    image: notification
+    container_name: notification_container
+    ports:
+      - "8085:8080"
+    depends_on:
+      - db
+
+volumes:
+  mysql_data:
