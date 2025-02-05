@@ -2,10 +2,10 @@
 
 ## Send messages with any kind notification
 
-### Before start, do this on cmd:
+### Before start, run the command:
  
  - docker build -t notification .
 
-### Go to docker paste:
+### Go to docker folder:
 
  - docker-compose up
