@@ -1,11 +1,11 @@
-# Api de Notificação com Scheduler
+# Notification api with Scheduler
 
-## Envie suas mensagens com tipos diferentes de notificação
+## Send messages with any kind notification
 
-### Antes de iniciar, faça os seguintes comandos:
+### Before start, do this on cmd:
  
  - docker build -t notification .
 
-### Vá até a pasta do docker:
+### Go to docker paste:
 
  - docker-compose up
